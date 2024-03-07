@@ -1,0 +1,10 @@
+ The zip-file "publicDatasetRETOUCHtraining_spectralis_AnomalyMaps.zip" contains a folder with all anomaly-maps for the training-set "TrainingSpectralis". 
+  The zip-file "publicDatasetRETOUCHtraining_spectralis_AnomalyMaps.zip" contains a folder with all anomaly-maps for the test-set "TestSpectralis". 
+ 
+ Each B-Scan is stored as separate .png file, with the naming convention "[VolumeID]_[BscanIndex].png"
+ 
+ The maps are binary:
+  - 0 = Background/Normal
+  - 1 = Anomalous Area
+ 
+ 
