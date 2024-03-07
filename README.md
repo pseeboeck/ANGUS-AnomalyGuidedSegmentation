@@ -9,9 +9,9 @@ The work was accepted at the Medical Image Analysis Journal: [Paper](https://www
 ## Content
 
 This repository contains 
- 1. **anomaly maps** for the [RETOUCH challenge dataset](https://retouch.grand-challenge.org/) [^1] created by [WeakAND](https://ieeexplore.ieee.org/abstract/document/8727461) [^2] which were used as training targets for the ANGUS approach,
- 2. **15 prediction maps** for the [RETOUCH challenge dataset - testset](https://retouch.grand-challenge.org/) [^1], created by  15 different models. 5 backbones (ANGUS-Net, ANGUS-Net-6,ANGUS-DeepLabv3, ANGUS-AttUNet, ANGUS-TransUNet) were trained for 3 different segmentation targets (IRC+Anomaly, SRF+Anomaly, PED+Anomaly) each (5*3=15). See also Table 1 and Table 2 of our paper.
- 3. **list of excluded Kermany-dataset samples**. As mentioned in the paper, we excluded 24 (DME) and 13 (DRUSEN) samples with invalid manual lesion annotations (e.g. non-closed contours) or other problems from our evaluation.
+ 1. **anomaly maps** for the [RETOUCH challenge dataset](https://retouch.grand-challenge.org/) [^1] created by [WeakAND](https://ieeexplore.ieee.org/abstract/document/8727461) [^2] which were used as training targets for the ANGUS approach. --> folder 'RETOUCH Anomaly Maps'.
+ 2. **15 prediction maps** for the [RETOUCH challenge dataset - testset](https://retouch.grand-challenge.org/) [^1], created by  15 different models. 5 backbones (ANGUS-Net, ANGUS-Net-6,ANGUS-DeepLabv3, ANGUS-AttUNet, ANGUS-TransUNet) were trained for 3 different segmentation targets (IRC+Anomaly, SRF+Anomaly, PED+Anomaly) each (5*3=15). See also Table 1 and Table 2 of our paper. --> folder 'RETOUCH Prediction Maps'.
+ 3. **list of excluded Kermany-dataset samples**. As mentioned in the paper, we excluded 24 (DME) and 13 (DRUSEN) samples with invalid manual lesion annotations (e.g. non-closed contours) or other problems from our evaluation. --> folder 'KERMANY infos'.
 
 [^1]: https://retouch.grand-challenge.org/
 [^2]: Seeböck, Philipp, et al. "Exploiting epistemic uncertainty of anatomy segmentation for anomaly detection in retinal OCT." IEEE transactions on medical imaging 39.1 (2019): 87-98.
